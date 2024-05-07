@@ -117,7 +117,8 @@ plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
 
-#output:
+# output:
+
 ![Screenshot 2024-05-07 144522](https://github.com/vignesh-777/19AI405ExpNo10/assets/139842402/7bf9de6e-385f-416c-a945-438a39b62fa1)
 
 # Result:
