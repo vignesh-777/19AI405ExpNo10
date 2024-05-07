@@ -46,8 +46,10 @@ print(plan)
 
 # Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
 <h3>You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.</h3>
-# Program:
+<h2>Program:</h2>
+
 ```
+
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
 
@@ -80,6 +82,7 @@ def find_plan(initial_state, goal_state, actions):
     return None
 def is_applicable(current_state, precondition):
     return all(current_state.get(key) == value for key, value in precondition.items())
+```
 # Example usage
 
 ```
